@@ -9,11 +9,24 @@
       "UnauthRoleName": "amplify-amplifydev1-dev-84904-unauthRole",
       "StackName": "amplify-amplifydev1-dev-84904",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:123141636675:stack/amplify-amplifydev1-dev-84904/91520e40-70dd-11ec-a080-0a0b9656900f",
-      "AmplifyAppId": "dt6dfv7gyyu72"
+      "AmplifyAppId": "dt6dfv7gyyu72",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifydev1-dev-84904-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
-        "amplifydev11489f209": {}
+        "amplifydev11489f209": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "amplifydev11489f209PostConfirmation": {
+          "GROUP": "developer",
+          "deploymentBucketName": "amplify-amplifydev1-dev-84904-deployment",
+          "s3Key": "amplify-builds/amplifydev11489f209PostConfirmation-536e615a344650634454-build.zip"
+        },
+        "graphQlLambdaAuthorizer4172ccb1": {
+          "deploymentBucketName": "amplify-amplifydev1-dev-84904-deployment",
+          "s3Key": "amplify-builds/graphQlLambdaAuthorizer4172ccb1-44524143634e53767053-build.zip"
+        }
       }
     }
   }

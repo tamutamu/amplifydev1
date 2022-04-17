@@ -3,10 +3,18 @@
   "serviceConfiguration": {
     "apiName": "amplifydev1",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/home/tamutamu/r/DEV/aws/test/amplify-test-2/develop/amplify/backend/api/amplifydev1/schema.graphql",
+    "gqlSchemaPath": "/home/tamutamu/r/DEV/aws/test/amplifydev1/dev/amplify/backend/api/amplifydev1/schema.graphql",
     "defaultAuthType": {
       "mode": "AMAZON_COGNITO_USER_POOLS",
       "cognitoUserPoolId": "authamplifydev11489f209"
-    }
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_LAMBDA",
+        "lambdaFunction": "graphQlLambdaAuthorizer4172ccb1",
+        "ttlSeconds": "300"
+      }
+    ]
   }
 }
